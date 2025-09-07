@@ -17,46 +17,48 @@ This academic project builds a modular C++ library that demonstrates how custom 
 ---
 
 ## 🚀 Project Structure (suggested)
-mlp-project/
-├── include/
-│ ├── containers/
-│ │ ├── IList.h
-│ │ ├── XArrayList.h
-│ │ └── DLinkedList.h
-│ ├── map_heap/
-│ │ ├── IMap.h
-│ │ └── xMap.h
-│ │ └── IHeap.h
-│ │ └── Heap.h
-│ ├── data/
-│ │ ├── IDataset.h
-│ │ ├── TensorDataset.h
-│ │ └── DataLoader.h
-│ ├── nn/
-│ │ ├── ILayer.h
-│ │ ├── FCLayer.h
-│ │ ├── Activations.h
-│ │ ├── ILoss.h
-│ │ ├── CrossEntropyLoss.h
-│ │ └── Model.h
-│ ├── optim/
-│ │ ├── IOptimizer.h
-│ │ ├── SGD.h
-│ │ └── Adam.h
-│ └── graph/
-│ ├── IGraph.h
-│ └── DGraphModel.h
-├── src/
-│ └── (implementation *.cpp)
-├── examples/
-│ ├── train_mlp_classification.cpp
-│ └── train_mlp_regression.cpp
-├── tests/
-│ └── unit_tests.cpp
-├── tools/
-│ └── compilation-command.sh
-└── README.md
 
+```plaintext
+mlp-project/
+│── include/
+│   ├── containers/
+│   │   ├── IList.h
+│   │   ├── XArrayList.h
+│   │   ├── DLinkedList.h
+│   │   └── ...
+│   ├── map_heap/
+│   │   ├── IMap.h
+│   │   ├── xMap.h
+│   │   └── IHeap.h
+│   ├── data/
+│   │   ├── IDataset.h
+│   │   ├── TensorDataset.h
+│   │   └── DataLoader.h
+│   ├── nn/
+│   │   ├── ILayer.h
+│   │   ├── FCLayer.h
+│   │   ├── Activations.h
+│   │   ├── ILoss.h
+│   │   ├── CrossEntropyLoss.h
+│   │   └── Model.h
+│   ├── optim/
+│   │   ├── IOptimizer.h
+│   │   ├── SGD.h
+│   │   └── Adam.h
+│   └── graph/
+│       ├── IGraph.h
+│       └── DGraphModel.h
+│
+├── src/ (implementation *.cpp)
+├── examples/
+│   ├── train_mlp_classification.cpp
+│   └── train_mlp_regression.cpp
+├── tests/
+│   └── unit_tests.cpp
+├── tools/
+├── compilation-command.sh
+└── README.md
+```
 ---
 
 ## 📚 Key Components (summary)
